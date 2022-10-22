@@ -7,10 +7,3 @@ if list[game.PlaceId] then
 else
     list["default"]()
 end
-
-return {
-    ["default"] = function()
-        print("game not supported")
-    end;
-    [58367836] = "loadstring"
-}
