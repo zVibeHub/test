@@ -1,6 +1,6 @@
 if not game:IsLoaded() then game.Loaded:Wait() end
 
-local list = loadstring(game:HttpGet("https://raw.githubusercontent.com/FelixDMxx/RobloxScripts/main/test.lua"))() or {["default"] = function() print("internet making problems") end}
+local list = loadstring(game:HttpGet("https://raw.githubusercontent.com/zVibeHub/test/main/gamelist.lua"))() or {["default"] = function() print("internet making problems") end}
 
 if list[game.PlaceId] then
     list[game.PlaceId]()
